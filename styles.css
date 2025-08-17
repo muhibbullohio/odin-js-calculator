@@ -14,3 +14,56 @@ button,
 textarea {
   font-family: inherit;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.display {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 0.3em;
+}
+
+.calculator {
+  padding: 20px;
+  width: 320px;
+  margin: 20px auto;
+  border-radius: 0.3em;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  flex: 1;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.87
+}
+
+.btn--equal {
+  flex: 2;
+  background-color: #5aadff;
+  color: #fff;
+  padding: 0 5px;
+  box-sizing: content-box;
+}
+
+
+.btn--op {
+  background-color: #d0e6ff;
+}
