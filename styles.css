@@ -56,11 +56,13 @@ h1 {
 }
 
 .btn--equal {
-  flex: 2;
-  background-color: #5aadff;
+  background-color: #76baff;
   color: #fff;
-  padding: 0 5px;
   box-sizing: content-box;
+}
+
+.btn--ac {
+  background-color: #ffd1d9;
 }
 
 
