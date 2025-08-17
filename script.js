@@ -31,6 +31,7 @@ const numberBtns = document.querySelectorAll(".btn--num");
 const display = document.querySelector(".display p");
 const operationBtns = document.querySelectorAll(".btn--op");
 const equalBtn = document.querySelector(".btn--equal");
+const allClearBtn = document.querySelector(".btn--ac");
 
 let num1, num2;
 
@@ -58,3 +59,6 @@ equalBtn.addEventListener("click", () => {
   num1 = display.innerText = operate(operand, num1, num2);
 });
 
+allClearBtn.addEventListener("click", () => {
+  display.innerText = "";
+});
